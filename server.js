@@ -16,13 +16,30 @@ const PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
+const notes = [];
 //Router
 
 // require('./routes/apiRoutes')(app);
 // require('./routes/htmlRoutes')(app);
 
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname,'public', 'index.html')));
+app.get('/notes', (req, res) => res.sendFile(path.join(__dirname,'public', 'notes.html')));
+
+//Post
+app.get('/api/notes', (req, res) => {
+    fs.readFile(path.join(__dirname,'db', 'db.json'))
+    
+})
+
+
+app.post('/api/notes', (req, res) => {
+
+})
+
+
+
 
 
 //Listener
