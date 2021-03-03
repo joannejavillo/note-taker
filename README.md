@@ -8,7 +8,7 @@ This application will enable user to write and save notes
 
   - [Description](#Description)
   - [Technologies](#Technologies)
-  - [Links](#Links
+  - [Links](#Links)
   - [License](#License)
 
 ---
