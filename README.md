@@ -23,7 +23,7 @@ node js, npm, express, JSON, Heroku
 
 ---
 ## Screenshots
-![screenshot-of-mainpage](./assets/pictureone.png)
+![screenshot-of-mainpage](./assets/.images/pictureone.png)
 - Main page
 
 ## License
