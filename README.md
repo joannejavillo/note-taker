@@ -23,9 +23,13 @@ node js, npm, express, JSON, Heroku
 
 ---
 ## Screenshots
-![screenshot-of-mainpage](./assets/.images/pictureone.png)
+![screenshot-of-mainpage](./assets/images/pictureone.png)
 - Main page
-
+![screenshot-of-image-one](./assets/images/picturetwo.png)
+- Image one
+![screenshot-of-image-one](./assets/images/picturethree.png)
+- Image two
+---
 ## License
 MIT
 ---
