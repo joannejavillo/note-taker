@@ -22,6 +22,7 @@ node js, npm, express, JSON, Heroku
 ---
 ## Links
  Github: (https://github.com/joannejavillo/note-taker)
+ Heroku: (https://floating-thicket-85276.herokuapp.com/)
 
 ---
 ## Screenshots
